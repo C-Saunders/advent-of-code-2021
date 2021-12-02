@@ -1,6 +1,12 @@
-name := "advent-of-code-2021"
-scalaVersion := "2.13.7"
-organization := "com.charliesaunders.aoc2021"
-version := "1.0"
+val scala3Version = "3.1.0"
+
+lazy val root = project
+  .in(file("."))
+  .settings(
+    name := "advent-of-code-2021",
+    version := "0.1.0-SNAPSHOT",
+    scalaVersion := scala3Version,
+    libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test"
+  )
 
 scalacOptions += "-deprecation"

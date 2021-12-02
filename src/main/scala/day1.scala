@@ -1,6 +1,4 @@
-package day1
-
-object Main extends App {
+@main def day1: Unit = {
   def countPairwiseIncreases(lines: Seq[Int]): Int = {
     lines
       .sliding(2)
