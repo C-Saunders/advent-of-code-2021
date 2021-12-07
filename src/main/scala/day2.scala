@@ -1,3 +1,5 @@
+package day2
+
 object Direction extends Enumeration {
   type Direction = Value
   val Forward, Up, Down, Unknown = Value

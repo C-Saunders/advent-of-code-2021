@@ -1,3 +1,5 @@
+package day4
+
 import scala.collection.mutable
 import scala.util.control.Breaks._
 

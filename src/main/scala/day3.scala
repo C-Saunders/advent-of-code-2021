@@ -1,3 +1,5 @@
+package day3
+
 import scala.collection.mutable
 import scala.util.control.Breaks._
 import scala.compiletime.ops.boolean
