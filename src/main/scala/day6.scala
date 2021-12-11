@@ -1,4 +1,4 @@
-package day6
+package day06
 
 case class Population(
     var zeros: BigInt = 0,

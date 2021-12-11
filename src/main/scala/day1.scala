@@ -1,4 +1,4 @@
-package day1
+package day01
 
 @main def day1: Unit = {
   def countPairwiseIncreases(lines: Seq[Int]): Int = {

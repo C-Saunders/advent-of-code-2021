@@ -1,4 +1,4 @@
-package day7
+package day07
 
 @main def day7: Unit = {
   val positions =

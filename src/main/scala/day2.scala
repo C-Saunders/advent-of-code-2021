@@ -1,4 +1,4 @@
-package day2
+package day02
 
 object Direction extends Enumeration {
   type Direction = Value

@@ -1,4 +1,4 @@
-package day4
+package day04
 
 import scala.collection.mutable
 import scala.util.control.Breaks._

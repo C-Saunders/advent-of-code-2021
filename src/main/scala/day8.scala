@@ -1,4 +1,4 @@
-package day8
+package day08
 
 def arrayMatch(a: Array[String], b: Array[String]): Boolean = {
   a.forall(b.contains) && b.forall(a.contains)
